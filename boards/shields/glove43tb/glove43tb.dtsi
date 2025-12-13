@@ -122,3 +122,7 @@
         reg = <0>;
     };
 };
+
+&uicr {
+    nfct-pins-as-gpios;
+};
