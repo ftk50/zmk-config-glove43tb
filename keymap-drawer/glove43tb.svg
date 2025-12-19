@@ -287,7 +287,7 @@ path.combo {
 <g transform="translate(208, 225)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">LANG2</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">INT5</tspan>
 </text>
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">6</text>
@@ -301,7 +301,7 @@ path.combo {
 <g transform="translate(333, 247) rotate(20.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">LANG1</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">INT4</tspan>
 </text>
 <a href="#ARROW">
 <text x="0" y="24" class="key hold layer-activator">ARROW</text>
