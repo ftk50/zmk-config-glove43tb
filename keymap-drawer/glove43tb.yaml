@@ -38,9 +38,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT5', h: '6'}
+  - {t: '&to_layer_0 LANGUAGE_2', h: '6'}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT4', h: ARROW}
+  - {t: '&to_layer_0 LANGUAGE_1', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
