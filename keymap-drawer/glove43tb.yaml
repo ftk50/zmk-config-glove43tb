@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+S
+  - {t: ▽, type: trans}
   - '-'
   - H
   - J
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - ':'
-  - ;
+  - Gui+Sft+S
   - N
   - M
   - ','
@@ -117,7 +117,7 @@ layers:
   - KP 3
   - .
   - '='
-  - {t: ▽, type: trans}
+  - ;
   - '['
   - ']'
   - '{'
