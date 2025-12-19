@@ -2,39 +2,39 @@ layout: {zmk_keyboard: glove43tb}
 layers:
   default:
   - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - {t: I, h: SCROLL}
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - {t: ▽, type: trans}
-  - '-'
-  - H
-  - J
-  - K
   - L
-  - ''''
+  - U
+  - ','
+  - .
+  - F
+  - W
+  - {t: R, h: SCROLL}
+  - Y
+  - P
+  - E
+  - I
+  - A
+  - O
+  - '-'
+  - {t: ▽, type: trans}
+  - +
+  - K
+  - T
+  - N
+  - S
+  - H
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
-  - B
+  - /
   - ':'
   - Gui+Sft+S
-  - N
+  - G
+  - D
   - M
-  - ','
-  - .
-  - /
+  - J
+  - B
   - LCTRL
   - LEFT WIN
   - LEFT ALT
@@ -73,7 +73,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ':'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
