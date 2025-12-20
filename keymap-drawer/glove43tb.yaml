@@ -23,7 +23,7 @@ layers:
   - N
   - S
   - H
-  - {t: Z, h: LEFT SHIFT}
+  - {t: Z, h: LEFT CONTROL}
   - X
   - C
   - V
@@ -35,12 +35,12 @@ layers:
   - M
   - J
   - B
-  - LCTRL
+  - ESCAPE
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 LANGUAGE_2', h: '6'}
+  - {t: '&to_layer_0 LEFT_COMMAND', h: '6'}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 LANGUAGE_1', h: ARROW}
+  - {t: '&to_layer_0 LEFT_SHIFT', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
@@ -156,9 +156,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
+  - Gui+LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -312,10 +312,10 @@ combos:
 - p: [11, 12]
   k: TAB
 - p: [12, 13]
-  k: Sft+TAB
+  k: LANGUAGE 2
 - p: [11, 10]
   k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
 - p: [24, 25]
   k: '='
+- p: [19, 18]
+  k: LANGUAGE 1
