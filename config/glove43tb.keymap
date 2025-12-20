@@ -50,7 +50,7 @@
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <12 13>;
         };
 
@@ -59,14 +59,14 @@
             key-positions = <11 10>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        language1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <19 18>;
         };
     };
 
@@ -109,10 +109,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                   &kp F        &kp W  &lt 5 R  &kp Y  &kp P
-&kp E             &kp I         &kp A         &kp O                        &kp MINUS    &trans                           &kp PLUS       &kp K        &kp T  &kp N    &kp S  &kp H
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp SLASH    &kp COLON                        &kp LG(LS(S))  &kp G        &kp D  &kp M    &kp J  &kp B
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
+&kp Q               &kp L         &kp U         &kp COMMA                      &kp PERIOD                                                   &kp F        &kp W  &lt 5 R  &kp Y  &kp P
+&kp E               &kp I         &kp A         &kp O                          &kp MINUS    &trans                           &kp PLUS       &kp K        &kp T  &kp N    &kp S  &kp H
+&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                          &kp SLASH    &kp COLON                        &kp LG(LS(S))  &kp G        &kp D  &kp M    &kp J  &kp B
+&kp ESCAPE          &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_COMMAND  &lt 2 SPACE  &lt_to_layer_0 3 LEFT_SHIFT      &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
@@ -140,10 +140,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))     &kp UP_ARROW    &kp LC(TAB)          &trans                       &trans  &trans  &trans  &trans  &trans
+&kp HOME        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LEFT_ARROW)  &trans          &kp LG(RIGHT_ARROW)  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans              &trans          &trans               &trans   &trans      &trans  &trans                          &trans
             >;
         };
 
