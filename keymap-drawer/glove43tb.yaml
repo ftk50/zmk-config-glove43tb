@@ -18,12 +18,12 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - +
-  - K
+  - {t: '&to_layer_0 K', h: ARROW}
   - T
   - N
   - S
   - H
-  - {t: Z, h: LEFT CONTROL}
+  - Z
   - X
   - C
   - V
@@ -36,11 +36,11 @@ layers:
   - J
   - B
   - ESCAPE
-  - LEFT WIN
+  - LCTRL
   - LEFT ALT
-  - {t: '&to_layer_0 LEFT_COMMAND', h: '6'}
+  - LEFT COMMAND
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 LEFT_SHIFT', h: ARROW}
+  - LEFT SHIFT
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
@@ -150,7 +150,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
