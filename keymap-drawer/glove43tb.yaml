@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove43tb}
 layers:
   default:
-  - Q
+  - {t: '&to_layer_0 Q', h: '6'}
   - L
   - U
   - ','
@@ -265,7 +265,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
