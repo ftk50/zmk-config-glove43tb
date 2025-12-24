@@ -139,9 +139,9 @@ layers:
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {type: held}
+  - Alt+LEFT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+RIGHT ARROW
   - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
@@ -314,7 +314,7 @@ combos:
 - p: [12, 13]
   k: LANGUAGE 2
 - p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
+  k: '&to_layer_0 LA(LS(TAB))'
 - p: [24, 25]
   k: '='
 - p: [19, 18]
