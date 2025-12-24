@@ -6,7 +6,7 @@ layers:
   - U
   - ','
   - .
-  - F
+  - {t: '&to_layer_0 F', h: ARROW}
   - W
   - {t: R, h: SCROLL}
   - Y
@@ -18,7 +18,7 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - +
-  - {t: '&to_layer_0 K', h: ARROW}
+  - K
   - T
   - N
   - S
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - /
-  - ':'
+  - MOUSE
   - Gui+Sft+S
   - G
   - D
@@ -99,13 +99,13 @@ layers:
   - '~'
   - (
   - )
-  - /
+  - _
   - KP 4
   - KP 5
   - KP 6
   - '*'
   - Ctl+Alt+KP 0
-  - _
+  - ':'
   - '!'
   - '@'
   - '#'
@@ -138,7 +138,7 @@ layers:
   - UP ARROW
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -150,7 +150,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,7 +191,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -204,7 +204,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
