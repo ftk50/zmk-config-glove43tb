@@ -109,9 +109,9 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp L       &kp U         &kp COMMA       &kp PERIOD                                        &kp F               &kp W  &lt 5 R  &kp Y  &kp P
-&kp E               &kp I       &kp A         &kp O           &kp MINUS    &trans                &kp PLUS       &lt_to_layer_0 3 K  &kp T  &kp N    &kp S  &kp H
-&kp Z               &kp X       &kp C         &kp V           &kp SLASH    &kp COLON             &kp LG(LS(S))  &kp G               &kp D  &kp M    &kp J  &kp B
+&lt_to_layer_0 6 Q  &kp L       &kp U         &kp COMMA       &kp PERIOD                                        &lt_to_layer_0 3 F  &kp W  &lt 5 R  &kp Y  &kp P
+&kp E               &kp I       &kp A         &kp O           &kp MINUS    &trans                &kp PLUS       &kp K               &kp T  &kp N    &kp S  &kp H
+&kp Z               &kp X       &kp C         &kp V           &kp SLASH    &mo 4                 &kp LG(LS(S))  &kp G               &kp D  &kp M    &kp J  &kp B
 &kp LEFT_CONTROL    &kp ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp LEFT_COMMAND      &kp BACKSPACE  &lt 1 ENTER                                &kp DEL
             >;
 
@@ -131,10 +131,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp SEMICOLON   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                  &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp UNDERSCORE              &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp COLON      &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans         &trans                                                                     &kp PIPE
             >;
         };
 
@@ -149,10 +149,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                        &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &mkp MB1  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans                                &trans
             >;
         };
 
