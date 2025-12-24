@@ -35,12 +35,12 @@ layers:
   - M
   - J
   - B
+  - LEFT CONTROL
   - ESCAPE
-  - LCTRL
   - LEFT ALT
-  - LEFT COMMAND
-  - {t: SPACE, h: NUM}
   - LEFT SHIFT
+  - {t: SPACE, h: NUM}
+  - LEFT COMMAND
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
