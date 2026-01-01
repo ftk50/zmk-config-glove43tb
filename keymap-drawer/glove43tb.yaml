@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - /
-  - MOUSE
+  - {t: '&to_layer_0 EXCLAMATION', h: '7'}
   - Gui+Sft+S
   - G
   - D
@@ -88,48 +88,41 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - F12
-NUM:
-  - '&kp MINUS'     # -
-  - '&kp N7'
-  - '&kp N8'
-  - '&kp N9'
-  - '&kp PLUS'      # +
-  - '&kp CARET'     # ^
-
-  - '&kp AMPS'      # &
-  - '&kp TILDE'     # ~
-  - '&kp LPAR'      # (
-  - '&kp RPAR'      # )
-
-  - '&kp UNDER'     # _
-  - '&kp N4'
-  - '&kp N5'
-  - '&kp N6'
-  - '&kp ASTRK'     # *
-
+  NUM:
+  - '-'
+  - '7'
+  - '8'
+  - '9'
+  - +
+  - ^
+  - '&'
+  - '~'
+  - (
+  - )
+  - _
+  - '4'
+  - '5'
+  - '6'
+  - '*'
   - {t: ▽, type: trans}
-
-  - '&kp COLON'     # :
-  - '&kp EXCL'      # !
-  - '&kp AT'        # @
-  - '&kp HASH'      # #
-  - '&kp DLLR'      # $
-  - '&kp PRCNT'     # %
-
-  - {t: '&kp N0', h: LEFT SHIFT}
-  - '&kp N1'
-  - '&kp N2'
-  - '&kp N3'
-  - '&kp DOT'       # .
-  - '&kp EQUAL'     # =
-
-  - '&kp SEMI'      # ;
-  - '&kp LBKT'      # [
-  - '&kp RBKT'      # ]
-  - '&kp LCBR'      # {
-  - '&kp RCBR'      # }
-  - '&kp BSLH'      # \
-
+  - ':'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - {t: '0', h: LEFT SHIFT}
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - '='
+  - ;
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,8 +131,7 @@ NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&kp PIPE'      # |
-
+  - '|'
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
@@ -204,7 +196,7 @@ NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,7 +204,7 @@ NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -316,6 +308,50 @@ NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
+  '7':
+  - '-'
+  - '7'
+  - '8'
+  - '9'
+  - Sft++
+  - ^
+  - Sft+&
+  - Sft+~
+  - Sft+(
+  - Sft+)
+  - Sft+_
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - {t: ▽, type: trans}
+  - ':'
+  - Sft+!
+  - '@'
+  - Sft+#
+  - Sft+$
+  - Sft+%
+  - {t: '0', h: LEFT SHIFT}
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - {t: Sft+=, type: held}
+  - Sft++
+  - '['
+  - ']'
+  - Sft+{
+  - Sft+}
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+|
 combos:
 - p: [11, 12]
   k: TAB
