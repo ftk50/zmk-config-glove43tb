@@ -109,10 +109,10 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp L       &kp U         &kp COMMA       &kp PERIOD                                        &lt_to_layer_0 3 F  &kp W  &lt 5 R  &kp Y  &kp P
-&kp E               &kp I       &kp A         &kp O           &kp MINUS    &trans                &kp PLUS       &kp K               &kp T  &kp N    &kp S  &kp H
-&kp Z               &kp X       &kp C         &kp V           &kp SLASH    &mo 4                 &kp LG(LS(S))  &kp G               &kp D  &kp M    &kp J  &kp B
-&kp LEFT_CONTROL    &kp ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp LEFT_COMMAND      &kp BACKSPACE  &lt 1 ENTER                                &kp DEL
+&lt_to_layer_0 6 Q  &kp L       &kp U         &kp COMMA       &kp PERIOD                                                    &lt_to_layer_0 3 F  &kp W  &lt 5 R  &kp Y  &kp P
+&kp E               &kp I       &kp A         &kp O           &kp MINUS    &trans                            &kp PLUS       &kp K               &kp T  &kp N    &kp S  &kp H
+&kp Z               &kp X       &kp C         &kp V           &kp SLASH    &lt_to_layer_0 7 EXCLAMATION      &kp LG(LS(S))  &kp G               &kp D  &kp M    &kp J  &kp B
+&kp LEFT_CONTROL    &kp ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp LEFT_COMMAND                  &kp BACKSPACE  &lt 1 ENTER                                &kp DEL
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
@@ -149,10 +149,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &mkp MB1  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                        &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &mkp MB1  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans                              &trans
             >;
         };
 
@@ -171,6 +171,15 @@
 &trans  &trans        &trans        &trans        &trans    &trans        &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &ind_con  &ind_bat      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans    &trans        &trans       &trans                                                  &bt BT_CLR_ALL
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&kp MINUS          &kp N7  &kp N8  &kp N9  &kp LS(PLUS)                                   &kp CARET     &kp LS(AMPS)  &kp LS(TILDE)  &kp LS(LPAR)  &kp LS(RPAR)
+&kp LS(UNDER)      &kp N4  &kp N5  &kp N6  &kp ASTERISK  &trans             &kp COLON     &kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)
+&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp LS(EQUAL)      &kp LS(PLUS)  &kp LBKT      &kp RBKT      &kp LS(LBRC)   &kp LS(RBRC)  &kp BACKSLASH
+&trans             &trans  &trans  &trans  &trans        &trans             &trans        &trans                                                   &kp LS(PIPE)
             >;
         };
     };
