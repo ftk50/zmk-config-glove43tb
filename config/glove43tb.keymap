@@ -176,10 +176,10 @@
 
         layer_7 {
             bindings = <
-&kp MINUS          &kp N7  &kp N8  &kp N9  &kp LS(PLUS)                                   &kp CARET     &kp LS(AMPS)  &kp LS(TILDE)  &kp LS(LPAR)  &kp LS(RPAR)
-&kp LS(UNDER)      &kp N4  &kp N5  &kp N6  &kp ASTERISK  &trans             &kp COLON     &kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)
-&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp LS(EQUAL)      &kp LS(PLUS)  &kp LBKT      &kp RBKT      &kp LS(LBRC)   &kp LS(RBRC)  &kp BACKSLASH
-&trans             &trans  &trans  &trans  &trans        &trans             &trans        &trans                                                   &kp LS(PIPE)
+&kp MINUS          &kp N7  &kp N8  &kp N9  &kp COLON                            &kp GRAVE  &kp CARET  &kp SEMI        &kp ASTERISK  &kp LEFT_PARENTHESIS
+&kp UNDERSCORE     &kp N4  &kp N5  &kp N6  &kp ASTERISK  &trans      &kp COLON  &kp EXCL   &kp LBKT   &kp POUND       &kp DOLLAR    &kp PERCENT
+&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &trans      &kp PLUS   &kp RBKT   &kp BSLH   &kp LEFT_BRACE  &kp PIPE      &kp BACKSLASH
+&kp EQUAL          &trans  &trans  &trans  &trans        &trans      &trans     &trans                                              &kp APOS
             >;
         };
     };
