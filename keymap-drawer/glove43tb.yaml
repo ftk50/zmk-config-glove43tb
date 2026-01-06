@@ -291,8 +291,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '&ind_con'
-  - '&ind_bat'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
