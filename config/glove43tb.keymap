@@ -63,7 +63,7 @@
             key-positions = <19 18>;
         };
 
-        muhenkan {
+        muhemkan {
             bindings = <&kp INT_MUHENKAN>;
             key-positions = <10 11>;
         };
