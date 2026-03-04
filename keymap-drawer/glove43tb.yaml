@@ -361,3 +361,5 @@ combos:
   k: '='
 - p: [19, 18]
   k: LANGUAGE 1
+- p: [10, 11]
+  k: INT MUHENKAN
