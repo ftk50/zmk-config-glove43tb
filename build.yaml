@@ -20,11 +20,11 @@
 ---
 include:
 - board: seeeduino_xiao_ble
-  shield: glove43tb_R rgbled_adapter
+  shield: glove43tb_R
   snippet: studio-rpc-usb-uart
   artifact-name: glove43tb_R
 - board: seeeduino_xiao_ble
-  shield: glove43tb_L rgbled_adapter
+  shield: glove43tb_L
   artifact-name: glove43tb_L
 - board: seeeduino_xiao_ble
   shield: settings_reset
