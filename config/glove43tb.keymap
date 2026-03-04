@@ -54,11 +54,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&kp INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
