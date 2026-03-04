@@ -63,6 +63,11 @@
             bindings = <&kp LANGUAGE_1>;
             key-positions = <19 18>;
         };
+
+        muhenkan {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
