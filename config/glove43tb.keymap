@@ -1,6 +1,5 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 150
 
-#include <behaviors/rgbled_widget.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
