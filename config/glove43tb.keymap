@@ -122,7 +122,7 @@
             bindings = <
 &kp CARET        &kp AMPERSAND         &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                             &kp F1            &kp F2             &kp F3          &kp F4           &kp F5
 &kp EXCLAMATION  &kp AT_SIGN           &kp HASH   &kp DOLLAR            &kp PERCENT            &trans      &kp COLON      &kp F6            &kp F7             &kp F8          &kp F9           &kp F10
-&kp PIPE         &kp NON_US_BACKSLASH  &kp SLASH  &kp ASTERISK          &trans                 &trans      &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp F11
+&kp PIPE         &kp NON_US_BACKSLASH  &kp SLASH  &kp ASTERISK          &kp SQT                &trans      &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp F11
 &trans           &trans                &trans     &trans                &trans                 &trans      &trans         &trans                                                                &kp F12
             >;
 
