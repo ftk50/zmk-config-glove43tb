@@ -69,23 +69,13 @@
             key-positions = <24 25>;
         };
 
-        lang1 {
-            bindings = <&kp LANG1>;
-            key-positions = <12 13>;
-        };
-
         lang2 {
             bindings = <&kp LANG2>;
-            key-positions = <18 19>;
-        };
-
-        to0 {
-            bindings = <&to 0>;
             key-positions = <12 13>;
         };
 
-        to02 {
-            bindings = <&to 0>;
+        lang1 {
+            bindings = <&kp LANG1>;
             key-positions = <18 19>;
         };
     };
