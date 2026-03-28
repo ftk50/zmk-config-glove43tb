@@ -45,39 +45,39 @@ layers:
   - {t: ENTER, h: FUNCTION}
   - DEL
   FUNCTION:
-  - ^
-  - '&'
-  - '~'
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
   - {t: ▽, type: trans}
-  - ':'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F13
   - F6
   - F7
   - F8
   - F9
   - F10
-  - '|'
-  - \
-  - /
-  - '*'
-  - ''''
   - {t: ▽, type: trans}
-  - ;
-  - '['
-  - ']'
-  - '{'
-  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -99,13 +99,13 @@ layers:
   - '~'
   - (
   - )
-  - _
+  - /
   - KP 4
   - KP 5
   - KP 6
   - '*'
-  - {t: ▽, type: trans}
-  - ':'
+  - Ctl+Alt+KP 0
+  - _
   - '!'
   - '@'
   - '#'
@@ -117,7 +117,7 @@ layers:
   - KP 3
   - .
   - '='
-  - ;
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - '{'
@@ -133,15 +133,15 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   ARROW:
-  - ESC
+  - ESCAPE
   - Ctl+Sft+TAB
   - UP ARROW
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+LEFT ARROW
   - {t: ▽, type: trans}
-  - Alt+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
@@ -155,10 +155,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHIFT
-  - Gui+LEFT ARROW
+  - LEFT SHIFT
+  - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+RIGHT ARROW
+  - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,12 +191,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -291,8 +291,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ind_con'
+  - '&ind_bat'
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
