@@ -1,12 +1,12 @@
 layout: {zmk_keyboard: glove43tb}
 layers:
   default:
-  - '&to_layer_0 Q'
+  - {t: Q, h: '6'}
   - L
   - U
   - ','
   - .
-  - '&to_layer_0 F'
+  - {t: F, h: ARROW}
   - W
   - {t: R, h: SCROLL}
   - Y
@@ -138,7 +138,7 @@ layers:
   - UP ARROW
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -265,7 +265,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
