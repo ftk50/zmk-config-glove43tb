@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - /
-  - '&to_layer_0 EXCLAMATION'
+  - {t: '!', h: '7'}
   - Gui+Sft+S
   - G
   - D
@@ -336,7 +336,7 @@ layers:
   - KP 2
   - KP 3
   - .
-  - _
+  - {t: _, type: held}
   - {t: ▽, type: trans}
   - ']'
   - \
