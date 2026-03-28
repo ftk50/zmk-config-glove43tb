@@ -49,11 +49,6 @@
             key-positions = <11 12>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
         muhennkann {
             bindings = <&to_layer_0 INT_MUHENKAN>;
             key-positions = <11 10>;
@@ -130,10 +125,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans         &trans            &trans         &trans             &trans                                        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp QUESTION   &kp PIPE          &kp SQT        &kp DOUBLE_QUOTES  &trans          &trans               &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON  &kp COLON          &kp LEFT_BRACE  &kp RIGHT_BRACE      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans         &trans            &trans         &trans             &trans          &trans               &trans   &trans                          &kp F12
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -181,6 +176,15 @@
 &trans  &trans        &trans        &trans        &trans    &trans        &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &ind_con  &ind_bat      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans    &trans        &trans       &trans                                                  &bt BT_CLR_ALL
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp EQUAL          &kp CARET             &kp TILDE       &kp RIGHT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION    &kp LEFT_BRACKET      &kp HASH        &kp DOLLAR             &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp UNDERSCORE               &trans          &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE        &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                          &kp PIPE
             >;
         };
     };
