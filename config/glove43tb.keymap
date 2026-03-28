@@ -104,87 +104,73 @@
         };
     };
 
-
-/* レイヤー番号を明示的に定義 */
-#define DEFAULT 0
-#define FUNCTION 1
-#define NUM 2
-#define ARROW 3
-#define MOUSE 4
-#define SCROLL 5
-#define BT_LAYER 6
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            bindings = 
-/* 修正: &to_layer_0 Q → &to DEFAULT と &kp Q を分離できないため、
-   もし「Qを押しながらレイヤー0に戻る」の意図なら &kp Q のみに、
-   「レイヤー0へ移動するキー」の意図なら &to DEFAULT に変更 */
-&kp Q          &kp L  &kp U  &kp COMMA  &kp DOT    &kp F       &kp W        &lt SCROLL R  &kp Y  &kp P
-&kp E          &kp I  &kp A  &kp O      &kp MINUS  &trans      &kp PLUS     &kp K         &kp T  &kp N   &kp S  &kp H
-&kp Z          &kp X  &kp C  &kp V      &kp SLASH  &kp EXCL    &kp LG(LS(S)) &kp G       &kp D  &kp M   &kp J  &kp B
-&kp LCTRL  &kp ESC  &kp LALT  &kp LSHIFT  &lt NUM SPACE  &kp LGUI  &kp BACKSPACE  &lt FUNCTION ENTER  &kp DEL
+default_layer {
+    bindings = <
+&to_layer_0 Q     &kp L        &kp U        &kp COMMA                     &kp DOT                       &to_layer_0 F    &kp W        &lt 5 R      &kp Y        &kp P
+&kp E             &kp I        &kp A        &kp O                         &kp MINUS     &trans           &kp PLUS       &kp K        &kp T        &kp N        &kp S        &kp H
+&kp Z             &kp X        &kp C        &kp V                         &kp SLASH     &to_layer_0 EXCLAMATION   &kp LG(LS(S))  &kp G        &kp D        &kp M        &kp J        &kp B
+&kp LCTRL         &kp ESC      &kp LALT     &kp LSHIFT                    &lt 2 SPACE     &kp LGUI         &kp BACKSPACE  &lt 1 ENTER                    &kp DEL
+    >;
+
+    sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
+};
+
+        FUNCTION {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
-            /* 修正: mouse_wheel_scroll → inc_dec_kp（標準ビヘイビア名） */
-            sensor-bindings = <&inc_dec_kp C_SCROLL_DOWN C_SCROLL_UP>;
+
+            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
-        FUNCTION_layer {
-            bindings = 
-&kp CARET  &kp AMPS   &kp TILDE  &kp LPAR   &kp RPAR   &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT  &trans  &kp COLON  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp PIPE   &kp BSLH   &kp SLASH  &kp STAR   &kp SQT    &trans  &kp SEMI   &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F12
-            >;
-            /* 修正: sensor_rotate_kp → inc_dec_kp */
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
-        };
-
-        NUM_layer {
-            bindings = 
-&kp MINUS   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp PLUS    &kp CARET  &kp AMPS   &kp TILDE  &kp LPAR   &kp RPAR
-&kp UNDER   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp STAR    &trans     &kp COLON  &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT
-&mt LSHIFT KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp DOT  &kp EQUAL  &kp SEMI  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &kp BSLH
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PIPE
+        NUM {
+            bindings = <
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
             >;
         };
 
-        ARROW_layer {
-            bindings = 
-&kp ESC    &kp LC(LS(TAB))  &kp UP     &kp LC(TAB)  &trans  &trans  &kp LA(LEFT)  &trans  &kp LA(RIGHT)  &trans
-&kp HOME   &kp LEFT         &kp DOWN   &kp RIGHT    &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHIFT &kp LG(LEFT)     &trans     &kp LG(RIGHT) &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        ARROW {
+            bindings = <
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
         };
 
-        MOUSE_layer {
-            bindings = 
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &mkp MB1  &trans  &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        MOUSE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
-        SCROLL_layer {
-            bindings = 
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
-        BT_layer {
-            bindings = 
-&trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N1  &kp N2  &kp N3  &trans  &trans  &bootloader  &trans  &trans  &trans  &trans  &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
+        layer_6 {
+            bindings = <
+&trans  &trans        &trans        &trans        &trans                               &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans        &trans        &trans        &trans    &trans        &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &ind_con  &ind_bat      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans        &trans        &trans    &trans        &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
     };
