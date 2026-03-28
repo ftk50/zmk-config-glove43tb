@@ -68,6 +68,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <12 13>;
+        };
+
+        lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
