@@ -320,6 +320,6 @@ combos:
 - p: [24, 25]
   k: '='
 - p: [12, 13]
-  k: LANG2
+  k: '&to_layer_0 LANG2'
 - p: [18, 19]
-  k: LANG1
+  k: '&to_layer_0 LANG1'
