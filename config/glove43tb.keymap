@@ -78,6 +78,16 @@
             bindings = <&kp LANG2>;
             key-positions = <18 19>;
         };
+
+        to0 {
+            bindings = <&to 0>;
+            key-positions = <12 13>;
+        };
+
+        to02 {
+            bindings = <&to 0>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
