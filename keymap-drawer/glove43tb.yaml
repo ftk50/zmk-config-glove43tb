@@ -111,7 +111,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: KP 0, h: LEFT SHIFT}
+  - KP 0
   - KP 1
   - KP 2
   - KP 3
