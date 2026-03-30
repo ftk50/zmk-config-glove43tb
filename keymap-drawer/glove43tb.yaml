@@ -357,8 +357,6 @@ combos:
   k: TAB
 - p: [11, 10]
   k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
 - p: [24, 25]
   k: '='
 - p: [12, 13]
