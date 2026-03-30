@@ -318,7 +318,7 @@ layers:
   - ^
   - '~'
   - )
-  - )
+  - Sft+0
   - /
   - KP 4
   - KP 5
@@ -342,7 +342,7 @@ layers:
   - \
   - '{'
   - '}'
-  - \
+  - Sft+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
