@@ -115,7 +115,7 @@
 &kp LCTRL  &kp ESC  &kp LALT  &kp LSHIFT  &lt 2 SPACE  &kp LGUI               &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
             >;
 
-            sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         FUNCTION {
@@ -154,6 +154,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         SCROLL {
