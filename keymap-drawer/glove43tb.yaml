@@ -105,7 +105,7 @@ layers:
   - KP 6
   - '*'
   - Ctl+Alt+KP 0
-  - _
+  - '='
   - '!'
   - '@'
   - '#'
@@ -317,13 +317,13 @@ layers:
   - '='
   - ^
   - '~'
-  - )
-  - Sft+0
+  - '*'
+  - (
   - /
   - KP 4
   - KP 5
   - KP 6
-  - '*'
+  - '"'
   - Ctl+Alt+KP 0
   - _
   - '!'
@@ -340,8 +340,8 @@ layers:
   - {t: ▽, type: trans}
   - ']'
   - \
-  - '{'
   - '}'
+  - '|'
   - Sft+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
