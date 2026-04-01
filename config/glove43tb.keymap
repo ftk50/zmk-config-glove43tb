@@ -104,9 +104,9 @@
 
         default_layer {
             bindings = <
-&lt 6 Q        &kp L          &to_layer_0 U  &kp COMMA      &kp DOT                                            &lt 3 F        &to_layer_0 W  &lt 5 R        &to_layer_0 Y  &to_layer_0 P
-&to_layer_0 E  &to_layer_0 I  &to_layer_0 A  &to_layer_0 O  &kp MINUS    &trans                 &kp PLUS       &to_layer_0 K  &kp T          &to_layer_0 N  &kp S          &to_layer_0 H
-&kp Z          &kp X          &kp C          &kp V          &kp SLASH    &lt 7 EXCLAMATION      &kp LG(LS(S))  &to_layer_0 G  &to_layer_0 D  &to_layer_0 M  &to_layer_0 J  &to_layer_0 B
+&lt 6 Q        &to_layer_0 L  &to_layer_0 U  &kp COMMA      &kp DOT                                            &lt 3 F        &to_layer_0 W  &lt 5 R        &to_layer_0 Y  &to_layer_0 P
+&to_layer_0 E  &to_layer_0 I  &to_layer_0 A  &to_layer_0 O  &kp MINUS    &trans                 &kp PLUS       &to_layer_0 K  &to_layer_0 T  &to_layer_0 N  &to_layer_0 S  &to_layer_0 H
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &kp SLASH    &lt 7 EXCLAMATION      &kp LG(LS(S))  &to_layer_0 G  &to_layer_0 D  &to_layer_0 M  &to_layer_0 J  &to_layer_0 B
 &kp LCTRL      &kp ESC        &kp LALT       &kp LSHIFT     &lt 2 SPACE  &kp LGUI               &kp BACKSPACE  &lt 1 ENTER                                                 &kp DEL
             >;
 
