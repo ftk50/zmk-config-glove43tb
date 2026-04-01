@@ -3,26 +3,26 @@ layers:
   default:
   - {t: Q, h: '6'}
   - L
-  - U
+  - '&to_layer_0 U'
   - ','
   - .
   - {t: F, h: ARROW}
-  - W
+  - '&to_layer_0 W'
   - {t: R, h: SCROLL}
-  - Y
-  - P
-  - E
-  - I
-  - A
-  - O
+  - '&to_layer_0 Y'
+  - '&to_layer_0 P'
+  - '&to_layer_0 E'
+  - '&to_layer_0 I'
+  - '&to_layer_0 A'
+  - '&to_layer_0 O'
   - '-'
   - {t: ▽, type: trans}
   - +
-  - K
+  - '&to_layer_0 K'
   - T
-  - N
+  - '&to_layer_0 N'
   - S
-  - H
+  - '&to_layer_0 H'
   - Z
   - X
   - C
@@ -30,11 +30,11 @@ layers:
   - /
   - {t: '!', h: '7'}
   - Gui+Sft+S
-  - G
-  - D
-  - M
-  - J
-  - B
+  - '&to_layer_0 G'
+  - '&to_layer_0 D'
+  - '&to_layer_0 M'
+  - '&to_layer_0 J'
+  - '&to_layer_0 B'
   - LCTRL
   - ESC
   - LALT
@@ -355,8 +355,6 @@ layers:
 combos:
 - p: [11, 12]
   k: TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
 - p: [24, 25]
   k: '='
 - p: [12, 13]
