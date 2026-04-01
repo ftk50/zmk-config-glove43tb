@@ -2,7 +2,7 @@ layout: {zmk_keyboard: glove43tb}
 layers:
   default:
   - {t: Q, h: '6'}
-  - L
+  - '&to_layer_0 L'
   - '&to_layer_0 U'
   - ','
   - .
@@ -19,14 +19,14 @@ layers:
   - {t: ▽, type: trans}
   - +
   - '&to_layer_0 K'
-  - T
+  - '&to_layer_0 T'
   - '&to_layer_0 N'
-  - S
+  - '&to_layer_0 S'
   - '&to_layer_0 H'
-  - Z
-  - X
-  - C
-  - V
+  - '&to_layer_0 Z'
+  - '&to_layer_0 X'
+  - '&to_layer_0 C'
+  - '&to_layer_0 V'
   - /
   - {t: '!', h: '7'}
   - Gui+Sft+S
