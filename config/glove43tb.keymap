@@ -160,6 +160,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(COLON)>;
         };
 
         layer_6 {
