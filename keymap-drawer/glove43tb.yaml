@@ -35,12 +35,12 @@ layers:
   - '&to_layer_0 M'
   - '&to_layer_0 J'
   - '&to_layer_0 B'
-  - LCTRL
+  - LGUI
   - ESC
   - LALT
   - LSHIFT
   - {t: SPACE, h: NUM}
-  - LGUI
+  - LCTRL
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
