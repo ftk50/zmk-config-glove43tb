@@ -28,7 +28,7 @@ layers:
   - '&to_layer_0 C'
   - '&to_layer_0 V'
   - /
-  - {t: '!', h: '7'}
+  - {t: '!', h: NUM}
   - Gui+Sft+S
   - '&to_layer_0 G'
   - '&to_layer_0 D'
@@ -39,7 +39,7 @@ layers:
   - ESC
   - LALT
   - LSHIFT
-  - {t: SPACE, h: NUM}
+  - {t: SPACE, h: '7'}
   - LCTRL
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
@@ -116,7 +116,7 @@ layers:
   - KP 2
   - KP 3
   - .
-  - '='
+  - {t: '=', type: held}
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -316,7 +316,7 @@ layers:
   - +
   - '='
   - ^
-  - '~'
+  - '&'
   - '*'
   - (
   - /
@@ -336,7 +336,7 @@ layers:
   - KP 2
   - KP 3
   - .
-  - {t: _, type: held}
+  - _
   - {t: ▽, type: trans}
   - ']'
   - \
@@ -347,7 +347,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
