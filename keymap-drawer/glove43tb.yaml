@@ -90,9 +90,9 @@ layers:
   - F12
   NUM:
   - '-'
-  - KP 7
-  - KP 8
-  - KP 9
+  - Gui+KP 7
+  - Gui+KP 8
+  - Gui+KP 9
   - +
   - ^
   - '&'
@@ -100,9 +100,9 @@ layers:
   - (
   - )
   - /
-  - KP 4
-  - KP 5
-  - KP 6
+  - Gui+KP 4
+  - Gui+KP 5
+  - Gui+KP 6
   - '*'
   - Ctl+Alt+KP 0
   - '='
@@ -111,10 +111,10 @@ layers:
   - '#'
   - $
   - '%'
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
+  - Gui+KP 0
+  - Gui+KP 1
+  - Gui+KP 2
+  - Gui+KP 3
   - .
   - {t: '=', type: held}
   - {t: ▽, type: trans}
@@ -343,7 +343,7 @@ layers:
   - '}'
   - '|'
   - Sft+]
-  - LEFT GUI
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
