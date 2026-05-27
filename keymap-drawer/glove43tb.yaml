@@ -343,7 +343,7 @@ layers:
   - '}'
   - '|'
   - Sft+]
-  - {t: ▽, type: trans}
+  - LEFT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
