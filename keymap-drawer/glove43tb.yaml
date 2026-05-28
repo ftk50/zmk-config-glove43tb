@@ -104,7 +104,7 @@ layers:
   - Gui+KP 5
   - Gui+KP 6
   - '*'
-  - Ctl+Alt+KP 0
+  - {t: ▽, type: trans}
   - '='
   - '!'
   - '@'
@@ -324,7 +324,7 @@ layers:
   - KP 5
   - KP 6
   - '"'
-  - Ctl+Alt+KP 0
+  - {t: ▽, type: trans}
   - _
   - '!'
   - '['
