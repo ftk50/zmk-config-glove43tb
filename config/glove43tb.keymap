@@ -115,10 +115,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1   &kp F2   &kp F3         &kp F4     &kp F5                                    &kp PERIOD  &kp N7        &kp N8        &kp N9        &kp SEMICOLON
-&kp F6   &kp F7   &kp F8         &kp F9     &kp F10         &trans         &kp COMMA  &kp COLON   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
-&kp F11  &kp F12  &kp SEMICOLON  &kp COLON  &kp LEFT_BRACE  &kp EQUAL      &trans     &kp MINUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
-&trans   &trans   &trans         &trans     &trans          &trans         &trans     &trans                                                &trans
+&kp F1   &kp F2   &kp F3         &kp F4     &kp F5                                    &kp PERIOD  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SEMICOLON
+&kp F6   &kp F7   &kp F8         &kp F9     &kp F10         &trans         &kp COMMA  &kp COLON   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SQT
+&kp F11  &kp F12  &kp SEMICOLON  &kp COLON  &kp LEFT_BRACE  &kp EQUAL      &trans     &kp MINUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0
+&trans   &trans   &trans         &trans     &trans          &trans         &trans     &trans                                                         &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
