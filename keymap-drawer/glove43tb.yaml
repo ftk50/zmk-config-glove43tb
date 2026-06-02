@@ -19,8 +19,8 @@ layers:
   - {t: ▽, type: trans}
   - +
   - '&to_layer_0 K'
-  - '&to_layer_0 T'
-  - '&to_layer_0 N'
+  - T
+  - N
   - '&to_layer_0 S'
   - '&to_layer_0 H'
   - '&to_layer_0 Z'
