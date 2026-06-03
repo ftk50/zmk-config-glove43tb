@@ -16,7 +16,7 @@ layers:
   - '&to_layer_0 A'
   - '&to_layer_0 O'
   - '-'
-  - {t: ▽, type: trans}
+  - ''
   - +
   - '&to_layer_0 K'
   - T
@@ -39,7 +39,7 @@ layers:
   - ESC
   - LALT
   - LSHIFT
-  - {t: SPACE, h: '7'}
+  - {t: SPACE, h: WIN_SYMBOL}
   - LCTRL
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
@@ -308,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  '7':
+  WIN_SYMBOL:
   - '-'
   - '7'
   - '8'
