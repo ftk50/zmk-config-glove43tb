@@ -51,9 +51,9 @@ layers:
   - F4
   - F5
   - .
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - ;
   - F6
   - F7
@@ -63,9 +63,9 @@ layers:
   - {t: ▽, type: trans}
   - ','
   - ':'
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - ''''
   - F11
   - F12
@@ -75,10 +75,10 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - '-'
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 0
+  - '1'
+  - '2'
+  - '3'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -90,9 +90,9 @@ layers:
   - {t: ▽, type: trans}
   NUM:
   - '-'
-  - Gui+KP 7
-  - Gui+KP 8
-  - Gui+KP 9
+  - Gui+7
+  - Gui+8
+  - Gui+9
   - +
   - ^
   - '&'
@@ -100,8 +100,8 @@ layers:
   - (
   - )
   - /
-  - Gui+KP 4
-  - Gui+KP 5
+  - Gui+4
+  - Gui+5
   - Gui+6
   - '*'
   - {t: ▽, type: trans}
@@ -111,10 +111,10 @@ layers:
   - '#'
   - $
   - '%'
-  - Gui+KP 0
-  - Gui+KP 1
-  - Gui+KP 2
-  - Gui+KP 3
+  - Gui+0
+  - Gui+1
+  - Gui+2
+  - Gui+3
   - .
   - {t: '=', type: held}
   - {t: ▽, type: trans}
@@ -310,9 +310,9 @@ layers:
   - BT CLR ALL
   '7':
   - '-'
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - +
   - '='
   - ^
@@ -320,9 +320,9 @@ layers:
   - '*'
   - (
   - /
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - '"'
   - {t: ▽, type: trans}
   - _
@@ -331,10 +331,10 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: KP 0, h: LEFT SHIFT}
-  - KP 1
-  - KP 2
-  - KP 3
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - .
   - _
   - {t: ▽, type: trans}
