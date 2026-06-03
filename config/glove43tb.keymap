@@ -105,7 +105,7 @@
         default_layer {
             bindings = <
 &lt 6 Q        &to_layer_0 L  &to_layer_0 U  &kp COMMA      &kp DOT                                            &lt 3 F        &to_layer_0 W  &lt 5 R        &to_layer_0 Y  &to_layer_0 P
-&to_layer_0 E  &to_layer_0 I  &to_layer_0 A  &to_layer_0 O  &kp MINUS    &trans                 &kp PLUS       &to_layer_0 K  &kp T          &kp N          &to_layer_0 S  &to_layer_0 H
+&to_layer_0 E  &to_layer_0 I  &to_layer_0 A  &to_layer_0 O  &kp MINUS    &none                  &kp PLUS       &to_layer_0 K  &kp T          &kp N          &to_layer_0 S  &to_layer_0 H
 &to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &kp SLASH    &lt 2 EXCLAMATION      &kp LG(LS(S))  &to_layer_0 G  &to_layer_0 D  &to_layer_0 M  &to_layer_0 J  &to_layer_0 B
 &kp LGUI       &kp ESC        &kp LALT       &kp LSHIFT     &lt 7 SPACE  &kp LCTRL              &kp BACKSPACE  &lt 1 ENTER                                                 &kp DEL
             >;
@@ -173,7 +173,7 @@
             >;
         };
 
-        layer_7 {
+        WIN_SYMBOL {
             bindings = <
 &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                               &kp EQUAL          &kp CARET         &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS
 &kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOUBLE_QUOTES  &trans              &kp UNDERSCORE  &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH         &kp DOLLAR    &kp PERCENT
