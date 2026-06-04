@@ -137,7 +137,7 @@ layers:
   - Ctl+Sft+TAB
   - UP ARROW
   - Ctl+TAB
-  - {t: ▽, type: trans}
+  - Sft+Alt+B
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -232,9 +232,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Alt+LEFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
