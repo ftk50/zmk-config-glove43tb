@@ -175,10 +175,10 @@
 
         WIN_SYMBOL {
             bindings = <
-&kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                               &kp EQUAL          &kp CARET         &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS
-&kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOUBLE_QUOTES  &trans              &kp UNDERSCORE  &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH         &kp DOLLAR    &kp PERCENT
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD         &kp UNDERSCORE      &trans          &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp PIPE      &kp LS(RIGHT_BRACKET)
-&trans        &trans        &trans        &trans        &trans             &trans              &trans          &trans                                                              &kp PIPE
+&kp MINUS         &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp PLUS                                               &kp EQUAL          &kp CARET         &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS
+&kp SLASH         &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &kp LG(NUMBER_6)  &kp DOUBLE_QUOTES  &trans              &kp UNDERSCORE  &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH         &kp DOLLAR    &kp PERCENT
+&kp LG(NUMBER_0)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp PERIOD         &kp UNDERSCORE      &trans          &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp PIPE      &kp LS(RIGHT_BRACKET)
+&trans            &trans            &trans            &trans            &trans             &trans              &trans          &trans                                                              &kp PIPE
             >;
         };
     };
