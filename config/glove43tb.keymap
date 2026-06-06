@@ -107,7 +107,7 @@
 &lt 6 Q        &to_layer_0 L  &to_layer_0 U  &kp COMMA      &kp DOT                                            &lt 3 F        &to_layer_0 W  &lt 5 R        &to_layer_0 Y  &to_layer_0 P
 &to_layer_0 E  &to_layer_0 I  &to_layer_0 A  &to_layer_0 O  &kp MINUS    &none                  &kp PLUS       &to_layer_0 K  &kp T          &kp N          &to_layer_0 S  &to_layer_0 H
 &to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &kp SLASH    &lt 2 EXCLAMATION      &kp LG(LS(S))  &to_layer_0 G  &to_layer_0 D  &to_layer_0 M  &to_layer_0 J  &to_layer_0 B
-&kp LGUI       &kp ESC        &kp LALT       &kp LSHIFT     &lt 7 SPACE  &kp LCTRL              &kp BACKSPACE  &lt 1 ENTER                                                 &kp DEL
+&kp LGUI       &kp DELETE     &kp LALT       &kp LSHIFT     &lt 7 SPACE  &kp LCTRL              &kp BACKSPACE  &lt 1 ENTER                                                 &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -115,10 +115,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1   &kp F2   &kp F3         &kp F4     &kp F5                                    &kp PERIOD  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SEMICOLON
-&kp F6   &kp F7   &kp F8         &kp F9     &kp F10         &trans         &kp COMMA  &kp COLON   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
-&kp F11  &kp F12  &kp SEMICOLON  &kp COLON  &kp LEFT_BRACE  &kp EQUAL      &trans     &kp MINUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
-&trans   &trans   &trans         &trans     &trans          &trans         &trans     &trans                                                &trans
+&kp F1   &kp F2   &kp F3         &kp F4     &kp F5                                    &kp PERIOD    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SEMICOLON
+&kp F6   &kp F7   &kp F8         &kp F9     &kp F10         &trans         &kp COMMA  &kp COLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
+&kp F11  &kp F12  &kp SEMICOLON  &kp COLON  &kp LEFT_BRACE  &kp EQUAL      &trans     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
+&trans   &trans   &trans         &trans     &trans          &trans         &trans     &trans                                                  &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
