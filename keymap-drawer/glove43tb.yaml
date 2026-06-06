@@ -36,14 +36,14 @@ layers:
   - '&to_layer_0 J'
   - '&to_layer_0 B'
   - LGUI
-  - ESC
+  - DELETE
   - LALT
   - LSHIFT
   - {t: SPACE, h: WIN_SYMBOL}
   - LCTRL
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
-  - DEL
+  - ESCAPE
   FUNCTION:
   - F1
   - F2
@@ -74,11 +74,11 @@ layers:
   - '{'
   - '='
   - {t: ▽, type: trans}
-  - '-'
+  - '0'
   - '1'
   - '2'
   - '3'
-  - '0'
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
