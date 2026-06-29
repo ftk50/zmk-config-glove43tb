@@ -110,7 +110,7 @@
 &kp LGUI       &kp DELETE     &kp LALT       &kp LSHIFT     &lt 7 SPACE  &kp LCTRL              &kp BACKSPACE  &lt 1 ENTER                                                 &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         FUNCTION {
@@ -120,8 +120,6 @@
 &kp F11  &kp F12  &kp SEMICOLON  &kp COLON  &kp LEFT_BRACE  &kp EQUAL      &trans     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
 &trans   &trans   &trans         &trans     &trans          &trans         &trans     &trans                                                  &trans
             >;
-
-            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         NUM {
