@@ -29,7 +29,7 @@
             input-processors = <
                 &zip_xy_to_scroll_mapper                       // XY移動でスクロール
                 &zip_scroll_transform INPUT_TRANSFORM_X_INVERT // スクロールのX軸を反転
-                &zip_scroll_scaler 1 8                        // スクロール感度調整
+                &zip_scroll_scaler 1 16                        // スクロール感度調整
             >;
         };
     };
@@ -74,6 +74,6 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         invert-y;     // マウス操作のY軸を反転
-        cpi = <400>;  // マウス感度
+        cpi = <800>;  // マウス感度
     };
 };
