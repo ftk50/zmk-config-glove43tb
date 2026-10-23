@@ -17,7 +17,7 @@ layers:
   - O
   - '-'
   - ''
-  - +
+  - Sft+;
   - K
   - T
   - N
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - /
-  - {t: '!', h: NUM}
+  - {t: Sft+1, h: WIN_SYMBOL}
   - Gui+Sft+S
   - G
   - D
@@ -39,54 +39,54 @@ layers:
   - DELETE
   - LALT
   - LSHIFT
-  - {t: SPACE, h: NUM}
+  - {t: SPACE, h: WIN_SYMBOL}
   - LCTRL
   - BACKSPACE
-  - {t: ENTER, h: FUNCTION}
-  - ESCAPE
-  WIN_JIS:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Sft+1, h: WIN_SYMBOL}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: WIN_SYMBOL}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ENTER, h: WIN_FUNCTION}
+  - ESCAPE
+  MAC:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '!', h: NUM}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: SPACE, h: NUM}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ENTER, h: FUNCTION}
   - {t: ▽, type: trans}
   FUNCTION:
   - F1
@@ -340,8 +340,8 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: MAC, h: toggle}
   - {t: default, h: toggle}
-  - {t: WIN_JIS, h: toggle}
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -444,11 +444,11 @@ combos:
 - p: [11, 12]
   k: TAB
 - p: [24, 25]
-  k: '='
+  k: Sft+-
   l: [default]
 - p: [24, 25]
-  k: Sft+-
-  l: [WIN_JIS]
+  k: '='
+  l: [MAC]
 - p: [12, 13]
   k: LANG2
 - p: [18, 19]
