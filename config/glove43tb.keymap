@@ -28,6 +28,12 @@
     acceleration-exponent = <0>;
 };
 
+// オートマウスレイヤー: 下記以外のキーを押すとマウスレイヤーを即解除する
+// 7: R(スクロール), 18/19: 左右クリック, 34/36/37/39: GUI/ALT/SHIFT/CTRL
+&zip_temp_layer {
+    excluded-positions = <7 18 19 34 36 37 39>;
+};
+
 / {
     input_processors {
         zip_wheel_scaler: zip_wheel_scaler {
@@ -104,9 +110,9 @@
 
         default_layer {
             bindings = <
-&lt 6 Q        &to_layer_0 L  &to_layer_0 U  &kp COMMA      &kp DOT                                            &lt 3 F        &to_layer_0 W  &lt 5 R        &to_layer_0 Y  &to_layer_0 P
-&to_layer_0 E  &to_layer_0 I  &to_layer_0 A  &to_layer_0 O  &kp MINUS    &none                  &kp PLUS       &to_layer_0 K  &kp T          &kp N          &to_layer_0 S  &to_layer_0 H
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &kp SLASH    &lt 2 EXCLAMATION      &kp LG(LS(S))  &to_layer_0 G  &to_layer_0 D  &to_layer_0 M  &to_layer_0 J  &to_layer_0 B
+&lt 6 Q        &kp         L  &kp         U  &kp COMMA      &kp DOT                                            &lt 3 F        &kp         W  &lt 5 R        &kp         Y  &kp         P
+&kp         E  &kp         I  &kp         A  &kp         O  &kp MINUS    &none                  &kp PLUS       &kp         K  &kp T          &kp N          &kp         S  &kp         H
+&kp         Z  &kp         X  &kp         C  &kp         V  &kp SLASH    &lt 2 EXCLAMATION      &kp LG(LS(S))  &kp         G  &kp         D  &kp         M  &kp         J  &kp         B
 &kp LGUI       &kp DELETE     &kp LALT       &kp LSHIFT     &lt 7 SPACE  &kp LCTRL              &kp BACKSPACE  &lt 1 ENTER                                                 &kp ESCAPE
             >;
 
