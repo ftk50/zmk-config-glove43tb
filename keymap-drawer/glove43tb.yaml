@@ -450,6 +450,6 @@ combos:
   k: '='
   l: [MAC]
 - p: [12, 24]
-  k: LANG2
+  k: '&to_base LANG2'
 - p: [19, 31]
-  k: LANG1
+  k: '&to_base LANG1'
