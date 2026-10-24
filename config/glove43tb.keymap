@@ -69,17 +69,23 @@
 
         // 英数=A+C、かな=N+M（どちらも中指の縦2キー）
         lang2 {
-            bindings = <&kp LANG2>;
+            bindings = <&to_base LANG2>;
             key-positions = <12 24>;
         };
 
         lang1 {
-            bindings = <&kp LANG1>;
+            bindings = <&to_base LANG1>;
             key-positions = <19 31>;
         };
     };
 
     behaviors {
+        tog_off: tog_off {
+            compatible = "zmk,behavior-toggle-layer";
+            #binding-cells = <1>;
+            toggle-mode = "off";
+        };
+
         // 右手の文字キー(F/R)用の長押しレイヤー。
         // 打鍵直後や右手の別キーを続けて押したときは文字として扱い、"ry" などで r が消えるのを防ぐ。
         lt_rh: lt_rh {
@@ -104,6 +110,22 @@
             bindings = <&msc>, <&msc>;
 
             tap-ms = <20>;
+        };
+    };
+
+    macros {
+        // ベースレイヤーに戻してからキーを送る（英数/かなコンボ用）。
+        // MAC(レイヤー1)は消さないので、Mac/Winモードはそのまま。
+        to_base: to_base {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            wait-ms = <0>;
+            bindings
+                = <&macro_tap_time 0>
+                , <&tog_off 2 &tog_off 3 &tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9>
+                , <&macro_tap_time 30>
+                , <&macro_param_1to1 &kp MACRO_PLACEHOLDER>
+                ;
         };
     };
 
