@@ -52,7 +52,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <23 24>;
         };
 
         eq {
