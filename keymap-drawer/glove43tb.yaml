@@ -441,7 +441,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [11, 12]
+- p: [23, 24]
   k: TAB
 - p: [24, 25]
   k: Sft+-
