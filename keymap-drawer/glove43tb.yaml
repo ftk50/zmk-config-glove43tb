@@ -17,7 +17,7 @@ layers:
   - O
   - '-'
   - ''
-  - Sft+;
+  - +
   - K
   - T
   - N
@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - /
-  - {t: Sft+1, h: WIN_SYMBOL}
-  - Gui+Sft+S
+  - {t: '!', h: WIN_SYMBOL}
+  - スクショ
   - G
   - D
   - M
@@ -340,8 +340,8 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: MAC, h: toggle}
-  - {t: default, h: toggle}
+  - Mac
+  - Win
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -357,45 +357,45 @@ layers:
   - Gui+7
   - Gui+8
   - Gui+9
-  - Sft+;
-  - '='
-  - Sft+6
-  - Sft+=
-  - Sft+8
-  - Sft+9
+  - +
+  - ^
+  - '&'
+  - '~'
+  - (
+  - )
   - /
   - Gui+4
   - Gui+5
   - Gui+6
-  - Sft+'
-  - Sft+2
-  - Sft+-
-  - Sft+1
-  - '['
-  - Sft+3
-  - Sft+4
-  - Sft+5
+  - '*'
+  - '"'
+  - '='
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - Gui+0
   - Gui+1
   - Gui+2
   - Gui+3
   - .
-  - {t: Sft+INT1, type: held}
-  - Sft+7
+  - _
+  - ''''
+  - '['
   - ']'
-  - '#'
-  - Sft+]
-  - Sft+#
-  - INT3
+  - '{'
+  - '}'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+INT3
+  - '|'
   WIN_FUNCTION:
   - F1
   - F2
@@ -414,17 +414,17 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - ','
-  - ''''
+  - ':'
   - '4'
   - '5'
   - '6'
-  - Sft+7
+  - ''''
   - F11
   - F12
   - ;
-  - ''''
-  - Sft+]
-  - Sft+-
+  - ':'
+  - '{'
+  - '='
   - {t: ▽, type: trans}
   - '0'
   - '1'
@@ -444,12 +444,12 @@ combos:
 - p: [23, 24]
   k: TAB
 - p: [24, 25]
-  k: Sft+-
+  k: '='
   l: [default]
 - p: [24, 25]
   k: '='
   l: [MAC]
 - p: [12, 24]
-  k: '&to_base LANG2'
+  k: 英数
 - p: [19, 31]
-  k: '&to_base LANG1'
+  k: かな
