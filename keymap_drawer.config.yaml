@@ -1,0 +1,37 @@
+# keymap-drawer の設定。
+# Windows(JIS入力)用のレイヤーはUS配列のキーコードで書かれているので、
+# 実際にJIS入力で出る記号を表示するように置き換える。
+# Mac側のレイヤーは APOS / LBKT / RBKT と別名で書いて、ここで置き換わらないようにしている。
+parse_config:
+  raw_binding_map:
+    "&kp LS(SEMICOLON)": "+"
+    "&kp EQL": "^"
+    "&kp LS(EQUAL)": "~"
+    "&kp LS(MINUS)": "="
+    "&kp LS(SQT)": "*"
+    "&kp SQT": ":"
+    "&kp LS(NUMBER_1)": "!"
+    "&kp LS(NUMBER_2)": "\""
+    "&kp LS(NUMBER_3)": "#"
+    "&kp LS(NUMBER_4)": "$"
+    "&kp LS(NUMBER_5)": "%"
+    "&kp LS(NUMBER_6)": "&"
+    "&kp LS(NUMBER_7)": "'"
+    "&kp LS(NUMBER_8)": "("
+    "&kp LS(NUMBER_9)": ")"
+    "&kp LEFT_BRACKET": "@"
+    "&kp RIGHT_BRACKET": "["
+    "&kp NON_US_HASH": "]"
+    "&kp LS(RIGHT_BRACKET)": "{"
+    "&kp LS(NON_US_HASH)": "}"
+    "&kp INT3": "\\"
+    "&kp LS(INT3)": "|"
+    "&kp LS(INT1)": "_"
+    "&lt 8 LS(NUMBER_1)": {t: "!", h: WIN_SYMBOL}
+    "&kp LG(LS(S))": "スクショ"
+    "&kp LANG1": "かな"
+    "&kp LANG2": "英数"
+    "&to_base LANG1": "かな"
+    "&to_base LANG2": "英数"
+    "&to 0": "Win"
+    "&to 1": "Mac"

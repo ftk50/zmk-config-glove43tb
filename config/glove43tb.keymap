@@ -157,7 +157,7 @@
         FUNCTION {
             bindings = <
 &kp F1   &kp F2   &kp F3         &kp F4     &kp F5                                    &kp PERIOD    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SEMICOLON
-&kp F6   &kp F7   &kp F8         &kp F9     &kp F10         &trans         &kp COMMA  &kp COLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
+&kp F6   &kp F7   &kp F8         &kp F9     &kp F10         &trans         &kp COMMA  &kp COLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp APOS
 &kp F11  &kp F12  &kp SEMICOLON  &kp COLON  &kp LEFT_BRACE  &kp EQUAL      &trans     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
 &trans   &trans   &trans         &trans     &trans          &trans         &trans     &trans                                                  &trans
             >;
@@ -169,7 +169,7 @@
             bindings = <
 &kp MINUS         &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp PLUS                                          &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH         &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &kp LG(NUMBER_6)  &kp ASTERISK  &kp DOUBLE_QUOTES      &kp EQUAL  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&kp LG(NUMBER_0)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp PERIOD    &kp UNDERSCORE         &kp SQT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&kp LG(NUMBER_0)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp PERIOD    &kp UNDERSCORE         &kp APOS   &kp LBKT  &kp RBKT  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans            &trans            &trans            &trans            &trans        &trans                 &trans     &trans                                                                     &kp PIPE
             >;
         };
@@ -216,7 +216,7 @@
 
         WIN_SYMBOL {
             bindings = <
-&kp MINUS         &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LS(SEMICOLON)                                     &kp EQUAL            &kp LS(NUMBER_6)    &kp LS(EQUAL)              &kp LS(NUMBER_8)           &kp LS(NUMBER_9)
+&kp MINUS         &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LS(SEMICOLON)                                     &kp EQL              &kp LS(NUMBER_6)    &kp LS(EQUAL)              &kp LS(NUMBER_8)           &kp LS(NUMBER_9)
 &kp SLASH         &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &kp LG(NUMBER_6)  &kp LS(SQT)   &kp LS(NUMBER_2)      &kp LS(MINUS)     &kp LS(NUMBER_1)     &kp LEFT_BRACKET    &kp LS(NUMBER_3)           &kp LS(NUMBER_4)           &kp LS(NUMBER_5)
 &kp LG(NUMBER_0)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp PERIOD    &kp LS(INT1)          &kp LS(NUMBER_7)  &kp RIGHT_BRACKET    &kp NON_US_HASH     &kp LS(RIGHT_BRACKET)      &kp LS(NON_US_HASH)        &kp INT3
 &trans            &trans            &trans            &trans            &trans        &trans                &trans            &trans                                                                                              &kp LS(INT3)
