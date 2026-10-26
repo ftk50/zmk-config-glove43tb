@@ -1,4 +1,6 @@
 name: glove43tb
 build:
+  cmake: .
+  kconfig: Kconfig
   settings:
     board_root: .
