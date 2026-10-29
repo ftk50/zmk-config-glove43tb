@@ -67,15 +67,15 @@
             layers = <1>;
         };
 
-        // 英数=A+C、かな=N+M（どちらも中指の縦2キー）
+        // 英数=O+V、かな=T+D（どちらも人差し指の縦2キー）
         lang2 {
             bindings = <&to_base LANG2>;
-            key-positions = <12 24>;
+            key-positions = <13 25>;
         };
 
         lang1 {
             bindings = <&to_base LANG1>;
-            key-positions = <19 31>;
+            key-positions = <18 30>;
         };
     };
 
