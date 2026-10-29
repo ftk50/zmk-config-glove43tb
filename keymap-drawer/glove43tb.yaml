@@ -1,40 +1,40 @@
 layout: {zmk_keyboard: glove43tb}
 layers:
   default:
-  - {t: Q, h: '6'}
-  - '&to_layer_0 L'
-  - '&to_layer_0 U'
+  - {t: Q, h: SYSTEM}
+  - L
+  - U
   - ','
   - .
   - {t: F, h: ARROW}
-  - '&to_layer_0 W'
+  - W
   - {t: R, h: SCROLL}
-  - '&to_layer_0 Y'
-  - '&to_layer_0 P'
-  - '&to_layer_0 E'
-  - '&to_layer_0 I'
-  - '&to_layer_0 A'
-  - '&to_layer_0 O'
+  - Y
+  - P
+  - E
+  - I
+  - A
+  - O
   - '-'
   - ''
   - +
-  - '&to_layer_0 K'
+  - K
   - T
   - N
-  - '&to_layer_0 S'
-  - '&to_layer_0 H'
-  - '&to_layer_0 Z'
-  - '&to_layer_0 X'
-  - '&to_layer_0 C'
-  - '&to_layer_0 V'
+  - S
+  - H
+  - Z
+  - X
+  - C
+  - V
   - /
-  - {t: '!', h: NUM}
-  - Gui+Sft+S
-  - '&to_layer_0 G'
-  - '&to_layer_0 D'
-  - '&to_layer_0 M'
-  - '&to_layer_0 J'
-  - '&to_layer_0 B'
+  - {t: '!', h: WIN_SYMBOL}
+  - スクショ
+  - G
+  - D
+  - M
+  - J
+  - B
   - LGUI
   - DELETE
   - LALT
@@ -42,8 +42,52 @@ layers:
   - {t: SPACE, h: WIN_SYMBOL}
   - LCTRL
   - BACKSPACE
-  - {t: ENTER, h: FUNCTION}
+  - {t: ENTER, h: WIN_FUNCTION}
   - ESCAPE
+  MAC:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '!', h: NUM}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: SPACE, h: NUM}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ENTER, h: FUNCTION}
+  - {t: ▽, type: trans}
   FUNCTION:
   - F1
   - F2
@@ -104,7 +148,7 @@ layers:
   - Gui+5
   - Gui+6
   - '*'
-  - {t: ▽, type: trans}
+  - '"'
   - '='
   - '!'
   - '@'
@@ -116,8 +160,8 @@ layers:
   - Gui+2
   - Gui+3
   - .
-  - {t: '=', type: held}
-  - {t: ▽, type: trans}
+  - {t: _, type: held}
+  - ''''
   - '['
   - ']'
   - '{'
@@ -264,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '6':
+  SYSTEM:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -296,8 +340,8 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Mac
+  - Win
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -314,20 +358,20 @@ layers:
   - Gui+8
   - Gui+9
   - +
-  - '='
   - ^
   - '&'
-  - '*'
+  - '~'
   - (
+  - )
   - /
   - Gui+4
   - Gui+5
   - Gui+6
+  - '*'
   - '"'
-  - {t: ▽, type: trans}
-  - _
+  - '='
   - '!'
-  - '['
+  - '@'
   - '#'
   - $
   - '%'
@@ -337,12 +381,12 @@ layers:
   - Gui+3
   - .
   - _
-  - {t: ▽, type: trans}
+  - ''''
+  - '['
   - ']'
-  - \
+  - '{'
   - '}'
-  - '|'
-  - Sft+]
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -352,12 +396,60 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
+  WIN_FUNCTION:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - .
+  - '7'
+  - '8'
+  - '9'
+  - ;
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: ▽, type: trans}
+  - ','
+  - ':'
+  - '4'
+  - '5'
+  - '6'
+  - ''''
+  - F11
+  - F12
+  - ;
+  - ':'
+  - '{'
+  - '='
+  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
 combos:
-- p: [11, 12]
+- p: [23, 24]
   k: TAB
 - p: [24, 25]
   k: '='
-- p: [12, 13]
-  k: '&to_layer_0 LANG2'
-- p: [18, 19]
-  k: '&to_layer_0 LANG1'
+  l: [default]
+- p: [24, 25]
+  k: '='
+  l: [MAC]
+- p: [13, 25]
+  k: 英数
+- p: [18, 30]
+  k: かな

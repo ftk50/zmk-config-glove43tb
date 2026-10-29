@@ -1,0 +1,20 @@
+config GLOVE43TB_OS_AUTO_SWITCH
+    bool "Bluetoothの接続先に合わせてMac/Winモードを自動で切り替える"
+    default y
+    depends on ZMK_BLE && (!ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL)
+
+if GLOVE43TB_OS_AUTO_SWITCH
+
+config GLOVE43TB_MAC_BT_PROFILE
+    int "Macモードにするプロファイル番号(0始まり。BT1=0)"
+    default 0
+
+config GLOVE43TB_WIN_BT_PROFILE
+    int "Winモードにするプロファイル番号(0始まり。BT3=2)"
+    default 2
+
+config GLOVE43TB_MAC_LAYER
+    int "MACレイヤーの番号"
+    default 1
+
+endif
