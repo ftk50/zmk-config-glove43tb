@@ -319,12 +319,12 @@ path.combo {
 <text x="168" y="144" class="combo tap">=</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -518,12 +518,12 @@ path.combo {
 <text x="168" y="144" class="combo tap">=</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -706,12 +706,12 @@ path.combo {
 <text x="112" y="147" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -895,12 +895,12 @@ path.combo {
 <text x="112" y="147" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -1101,12 +1101,12 @@ path.combo {
 <text x="112" y="147" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -1294,12 +1294,12 @@ path.combo {
 <text x="112" y="147" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -1486,12 +1486,12 @@ path.combo {
 <text x="112" y="147" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -1683,12 +1683,12 @@ path.combo {
 <text x="112" y="147" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -1871,12 +1871,12 @@ path.combo {
 <text x="112" y="147" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
@@ -2059,12 +2059,12 @@ path.combo {
 <text x="112" y="147" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="126" y="99" width="28" height="26" class="combo"/>
-<text x="140" y="112" class="combo tap">英数</text>
+<rect rx="6" ry="6" x="182" y="107" width="28" height="26" class="combo"/>
+<text x="196" y="120" class="combo tap">英数</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="603" y="99" width="28" height="26" class="combo"/>
-<text x="617" y="112" class="combo tap">かな</text>
+<rect rx="6" ry="6" x="546" y="107" width="28" height="26" class="combo"/>
+<text x="560" y="120" class="combo tap">かな</text>
 </g>
 </g>
 </g>
