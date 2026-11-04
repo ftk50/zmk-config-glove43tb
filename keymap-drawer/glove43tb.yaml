@@ -79,12 +79,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: SPACE, h: NUM}
-  - {t: ▽, type: trans}
+  - LGUI
   - {t: ▽, type: trans}
   - {t: ENTER, h: FUNCTION}
   - {t: ▽, type: trans}
